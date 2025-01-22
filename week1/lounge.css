@@ -1,0 +1,45 @@
+h1, h2{
+    font-family: sans-serif;
+    color: grey;
+}
+h1{
+    border-bottom: 1px solid black ;
+}
+p{
+    color: aqua;
+    font-family: sans-serif;
+}
+
+em{
+    font-family: serif;
+}
+p.green{
+    color: green;
+}
+p.lightblue {
+    color: lightblue;
+}
+
+p.blue{
+    color: blue;
+}
+
+p.red{
+    color: red;
+}
+
+#unique{
+    font-size: 20px;
+    color: aquamarine;
+}
+
+ul > li{
+    color: orange;
+}
+input[type="text"] {
+    border: 2px solid blue;
+}
+
+a:hover{
+    color: dodgerblue;
+}

@@ -1,0 +1,92 @@
+/* colors
+#905f7a
+#7a905f */
+
+h1, h2{
+    font-family: 2rem;
+    padding: 1rem;
+    font-size: 1.7rem;
+}
+h1{
+    font-size: 3rem;
+    text-align: left;
+    text-transform: uppercase;
+    
+}
+.nav{
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+body{
+    background-color: #5f7a96;
+}
+.main{
+    background-color: #7a905f;
+    padding: 20px;
+    margin: 0 auto;
+    color: #000;
+    border: solid 5px #000;
+}
+a:hover{
+    color: #7a905f;
+}
+a:link{
+    color: #000;
+}
+.main h2{
+    padding-top: 2px;
+    text-align: center;
+	padding-bottom: 20px;
+    font-size: 2rem;
+    margin-top: 0;
+    
+}
+
+.main p{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.skills{
+    margin:0 auto;
+    padding-bottom: 10px;
+    padding: 10px;
+    background-color: #7a905f;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+ 
+}
+.skills li{
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+.skills h2{
+    font-size: 2rem;
+}
+.projects{
+    border: solid 5px #7a905f;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    width: 600px;
+    box-shadow: 10px 10px 5px #7a905f;
+}
+.projects h2{
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+.projects li{
+    font-size: 1.5rem;
+}
+footer{
+    background-color: #7a905f;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+    color: #000;
+    
+}
