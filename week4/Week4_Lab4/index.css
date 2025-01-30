@@ -6,8 +6,8 @@ The body tag should have the following styles
 */
 body{
     font-family: arial, sans-serif;
-    margin: 20px;
-    padding: 20px;
+    margin: 10px;
+    padding: 10px;
 }
 /* Header Styles: A fixed section at the top */
 /*
@@ -21,7 +21,7 @@ The header class should include the following styles
 .header{
     background-color: #613f75;
     color: #e5c3d1;
-    padding: 20px;
+    padding: 10px;
     border-bottom: 5px solid #ef798a;
     text-align: center;
 }
