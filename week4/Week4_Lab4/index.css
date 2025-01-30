@@ -68,7 +68,7 @@ The navbar class should include the following styles
 ## Set a border radius (Ex: 5px)
 */
 
-.nav-item{
+.nav-item:hover{
     background-color: #f7a9a8;
     padding: 20px;
     border-radius: 10px ;
