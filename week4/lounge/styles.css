@@ -1,0 +1,33 @@
+.box > *{
+    border: solid 2px #000;
+    border-radius: 5px;
+    background-color: rgb(96, 120, 168);
+}
+
+.box{
+    border: 2px dotted rgb(96, 120, 168);
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    padding: 20px;
+    gap: 20px;
+}
+
+.flex-item{
+    flex: 1;
+    min-width: 100px;
+    max-width: 200px;
+    text-align: center;
+    border: 1px solid blue ;
+    padding: 20px;
+    background-color: aqua;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0, 5);
+}
