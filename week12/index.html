@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Guessing</title>
+</head>
+<style>
+    body{
+        margin: 20px;
+    }
+    img{
+        margin: 20pxs;
+    }
+</style>
+<script>
+    window.onload = init;
+
+    function init(){
+       let images = document.getElementsByTagName("img");
+       for (let i = 0; i < images.length; i++){
+            images[i].onmouseover = showAnswer;
+            images[i].onmouseout = reblur;
+       }
+    }
+    function showAnswer(e){
+        let image = e.target;
+        let name = image.id;
+        name = "images/" + name + ".jpg";
+        image.src = name;
+        setTimeout(reblur, 2000, image);
+    }
+    function reblur(eventObj){
+        let image = eventObj.target;
+        let name = image.id;
+        name = "images/" + name + "blur.jpg";
+        image.src = name;
+    }
+</script>
+<body>
+    <!-- <script>
+        window.onload = pageLoaderHandler;
+        function pageLoaderHandler(){
+            alert('IM alive');
+        }
+    </script> -->
+    <img id="zero" src="images/zeroblur.jpg">
+    <img id="one" src="images/oneblur.jpg">
+    <img id="two" src="images/twoblur.jpg">
+    <img id="three" src="images/threeblur.jpg">
+    <img id="four" src="images/fourblur.jpg">
+    <img id="five" src="images/fiveblur.jpg">
+    
+</body>
+</html>
